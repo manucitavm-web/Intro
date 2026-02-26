@@ -1,2 +1,2 @@
-import streamly as st
+import streamlit as st
 st.little("Mi primera app")
