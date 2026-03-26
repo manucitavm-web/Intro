@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-st.title("Mi primera app")
+st.title("Mi Primera App")
 st.header("Esta es mi página de presentación")
 image= Image.open("Flores.png")
 st.image(image, caption="Esta es mi imagen")
