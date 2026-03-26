@@ -1,8 +1,7 @@
 import streamlit as st
 from PIL import Image
 st.title("Mi Primera App")
-st.header("Esta es mi página de presentación")
-image= Image.open("Flores.png")
+st.header("Bienvenido, esta es mi página de presentación!!!")
 image= Image.open("Pocoyonina.jpg")
 st.image(image, caption="Esta es mi imagen")
 texto= st.text_input ("Ingresa texto", "Texto inicial")
