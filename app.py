@@ -3,7 +3,6 @@ from PIL import Image
 st.title("Mi Primera App")
 st.header("Esta es mi página de presentación!!!")
 image= Image.open("Pocoyonina.jpg")
-image= Image.open("Nina.jpg")
 st.image(image, caption="Esta es mi imagen")
 texto= st.text_input ("Ingresa un texto", "Texto inicial")
 st.write("El texto que escribiste es",texto)
